@@ -1,0 +1,49 @@
+<!-- question:
+Product name
+
+Price
+brand
+
+Gender (select)
+Sold (boolean value) (by default false)
+Use constructor functions to create object data for the product.
+Add a submit button to add the product.
+Use local storage as a database for the seller.
+Once you add the product it should be added to the database in the form of an array of products. -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="myFunction(event)" id="product">
+
+        <label for=""> Brand</label><br />
+        <select id="category">
+          <option value="PUMA">PUMA</option>
+          <option value="ADIDAS">ADIDAS</option>
+          <option value="NIKE">NIKE</option>
+          <option value="Boat">Boat</option></select
+        ><br />
+
+        <label for="">Product name</label><br />
+        <input id="name" type="text" placeholder="Enter Product Name" /><br />
+        <label for="">Product Price </label><br />
+        <input id="price" type="number" placeholder="Enter Price" /><br />
+        <input type="text" id="img" placeholder="Image Url">
+    
+        
+    <input type="submit" /> 
+      </form>
+    
+</body>
+</html>
+<script src="index.js"></script>
